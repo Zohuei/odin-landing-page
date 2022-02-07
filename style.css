@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/** General Style */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** End of General Style */
+/** Header Style */
+header {
+  background: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+}
+
+#logo {
+  font-size: 2.4rem;
+  color: #F9FAF8;
+}
+
+header ul {
+  display: flex;
+  gap: 3rem;
+}
+
+header ul li a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+/** End of Header  Style */
+/** Main Style */
+.hero-container {
+  padding: 10rem 8rem;
+  background: #1F2937;
+  color: white;
+  display: flex;
+  gap: 3rem;
+}
+
+.hero-container-text h1 {
+  font-size: 4.8rem;
+}
+
+.hero-container-text p {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.hero-container button {
+  background: #3882F6;
+  border: 0px;
+  padding: .5rem 2.5rem;
+  border-radius: .5rem;
+  color: white;
+  margin: 1rem 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.hero-container img {
+  width: 100%;
+  background: #3882F6;
+  border-radius: 3rem;
+}
+
+/** End of Main Style */
+
+/** Gallery Style */
+.gallery h2 {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 8rem 6rem;
+
+}
+
+.card-item {
+  width: 20rem;
+
+  gap: 1rem;
+}
+
+.card-item img {
+  background: #3882F6;
+  width: 15rem;
+  height: 15rem;
+  border: 2px solid #3882F6;
+  border-radius: 1rem;
+
+}
+
+.card-item p {
+  text-align: center;
+  font-size: 1.3rem;
+  width: 15rem;
+  color: #666;
+}
+
+/** End of Gallery Style */
+/** Quotation Style */
+.quote-section {
+  background: #E5E7EB;
+  padding: 8rem 8rem;
+}
+
+.quote-section p {
+  font-size: 3.6rem;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.quote-section h4 {
+  font-size: 2rem;
+  text-align: end;
+}
+
+/** End of Quotation Style */
+
+/** Sign Up Style */
+#sign-up {
+  padding: 8rem;
+}
+
+.sign-up-container {
+  background: #3882F6;
+  padding: 2rem 4rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: .6rem;
+  justify-content: space;
+}
+
+.sign-up-container button {
+  background: transparent;
+  border: 1px solid white;
+  padding: .5rem 2rem;
+  border-radius: .3rem;
+  color: white;
+}
+
+/** End of Sign Up Style */
+
+/** Footer Style */
+footer {
+  background: #1F2937;
+  padding: 4rem 8rem;
+  color: white;
+  text-align: center;
+}
+
+/** End of Footer Style */
